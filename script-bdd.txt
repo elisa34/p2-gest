@@ -1,9 +1,10 @@
 -- create a table
-CREATE TABLE 'contacts' (
+CREATE TABLE contacts (
   id INTEGER PRIMARY KEY,
   nom varchar(100) NOT NULL,
   prenom varchar(100) NOT NULL,
-  email varchar(255) NOT NULL unique,
+  email varchar(255) NOT NULL unique
+  
 );
 
 
@@ -12,4 +13,4 @@ CREATE TABLE 'contacts' (
 INSERT INTO contacts VALUES (1, 'Tom', 'Fell' , 'tom@contact.com');
 INSERT INTO contacts VALUES (2, 'Joan', 'Fork' , 'joan@contact');
 -- fetch some values
-SELECT * FROM contacts WHERE nom = 'Fell';
+SELECT * FROM contacts 
