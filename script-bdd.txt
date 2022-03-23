@@ -1,3 +1,7 @@
+create databse form;
+use form;
+
+
 -- create a table
 CREATE TABLE contacts (
   id INTEGER PRIMARY KEY,
