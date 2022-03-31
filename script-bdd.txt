@@ -13,6 +13,7 @@ CREATE TABLE contacts (
 
 
 
+
 -- insert some values
 INSERT INTO contacts VALUES (1, 'Tom', 'Fell' , 'tom@contact.com');
 INSERT INTO contacts VALUES (2, 'Joan', 'Fork' , 'joan@contact.com');
