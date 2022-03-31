@@ -10,11 +10,9 @@ const server = http.createServer(app);
 //connexion entre l'api et la bdd  // 
 var connection = mysql.createConnection({
     host     : 'localhost',
-    user     : 'newuser',
+    user     : 'newUser',
     password : 'password',
-    database: 'form',
-    port: 3306,
-    insecureAuth : true
+    database : 'form'
   });
   
   connection.connect();

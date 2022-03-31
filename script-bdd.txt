@@ -1,4 +1,4 @@
-create databse form;
+create database form;
 use form;
 
 
@@ -15,6 +15,11 @@ CREATE TABLE contacts (
 
 -- insert some values
 INSERT INTO contacts VALUES (1, 'Tom', 'Fell' , 'tom@contact.com');
-INSERT INTO contacts VALUES (2, 'Joan', 'Fork' , 'joan@contact');
+INSERT INTO contacts VALUES (2, 'Joan', 'Fork' , 'joan@contact.com');
+INSERT INTO contacts VALUES (3, 'Lea', 'Dufour' , 'lea@contact.com');
 -- fetch some values
-SELECT * FROM contacts 
+SELECT * FROM contacts;
+INSERT INTO contacts VALUES (4, 'Paul');
+UPDATE contacts SET email = 'chloe@contact.com' WHERE nom = 'Lea';
+DELETE FROM contacts WHERE nom = 'Tom';
+SELECT * FROM contacts;
